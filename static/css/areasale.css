@@ -1,0 +1,73 @@
+body{
+    background-color:#F6F6F6;
+}
+#pam{
+    position: absolute;
+    background-color:white;
+    top: 5%;
+    height:15%;
+    width: 100%;
+    left:1%
+}
+
+
+#input{
+    position: absolute;
+    left:5%;
+    top: 50%;
+    height:20%；
+}
+
+#btn{
+    position: absolute;
+    left:50%;
+    top: 50%;
+    height:20%；
+}
+
+#table{
+    position: absolute;
+    background-color:white;
+    top:21%;
+    height:77%;
+    width: 100%;
+
+}
+
+/* .dropdown{
+    position: relative;
+    margin-top:100px;
+    width:300px;
+    height:50px；
+} */
+
+/* .dropdown input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background-color:rgb(73, 12, 12);
+    border: none;
+    outline: none;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    padding:12px 20px;
+    border-radius: 10px; 
+
+
+} */
+
+/* dropdown .option{
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    background-color:rgb(175, 134, 134);
+    box-shadow: 0 30px 30px rgba(0,0,0,0.05);
+    border-radius: 10px;
+    overflow:hidden;
+} */
+
+
+
+

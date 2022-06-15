@@ -1,0 +1,65 @@
+<!--
+ * @Description: 
+ * @Author: baiyi
+ * @Date: 2022-02-11 11:21:53
+ * @LastEditTime: 2022-02-18 16:39:54
+ * @LastEditors: baiyi
+ * @Reference: 
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>订单区域明细</title>
+    <link rel="stylesheet" href="../static/css/areasale.css">
+    <script src="../static/icon/accessibility-outline.svg"></script>
+    <script src="../static/js/jquery-1.11.1.min.js"></script>
+</head>
+
+<body>
+    <!-- <div id="pam">
+        <input type="text" id ="input" value="sa">
+        <ul type="">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+        </ul>
+        <button type="button" onclick="query" id="btn">查询</button>
+    </div>
+    <div id="table">
+        正文
+    </div>
+    <script>
+        function query(){
+
+            $.ajax({
+                type: "GET",
+                url: "/sale",
+                dataType: "json",
+                data: {"name":"张三","score":"100"},
+                success: function(data){
+                    $("h2").html("总人数:"+data+"人")
+
+                }, 
+                error: function () {
+                    alert("发送ajax请求失败")
+                }
+            })
+        }
+    </script> -->
+
+
+    <form action="/areasale" method="get">
+        <input type="text" name="area1" value="{{area1}}"> 
+        <button type="submit">提交</button>
+         
+    </form>
+    <div>
+        <p>{{area1|safe}}</p>
+        <p>{{ls|safe}}</p>
+    </div>
+</body>
+</html>
